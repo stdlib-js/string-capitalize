@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.capitalize;
+})();
 })();
 </script>
 ```
@@ -87,6 +89,7 @@ out = capitalize( 'Hidden Treasures' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-capitalize@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var str;
 
@@ -102,6 +105,7 @@ str = capitalize( 'javaScript' );
 str = capitalize( 'Hidden Treasures' );
 // returns 'Hidden Treasures'
 
+})();
 })();
 </script>
 </body>
@@ -204,9 +208,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/string/uncapitalize]: https://github.com/stdlib-js/string-uncapitalize/tree/umd
+[@stdlib/string/uncapitalize]: https://github.com/stdlib-js/string-uncapitalize/tree/umd/tree/umd
 
-[@stdlib/string/uppercase]: https://github.com/stdlib-js/string-uppercase/tree/umd
+[@stdlib/string/uppercase]: https://github.com/stdlib-js/string-uppercase/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
